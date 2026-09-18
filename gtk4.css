@@ -31,6 +31,33 @@
 @define-color theme_unfocused_selected_bg_color #C96A8A;
 @define-color theme_unfocused_selected_fg_color #1A1A2E;
 
+
+/* Content / list surfaces — pin nodes the @define-color tokens miss so file
+   managers agree (violet-black content on purple chrome). :selected below wins
+   on specificity. */
+headerbar, toolbar, menubar, .titlebar {
+  background-color: #2D2B44;
+  background-image: none;
+  color: #EDEBE7;
+}
+
+.view,
+textview, textview text,
+scrolledwindow > viewport,
+list, list > row,
+listview, listview > row,
+columnview, columnview > row,
+gridview, gridview > child,
+iconview,
+treeview, treeview.view {
+  background-color: @view_bg_color;
+  color: @view_fg_color;
+}
+
+.sidebar, .navigation-sidebar, list.sidebar {
+  background-color: @sidebar_bg_color;
+  color: @sidebar_fg_color;
+}
 .gtkstyle-fallback:selected {
   background-color: #C96A8A;
   color: #1A1A2E;
