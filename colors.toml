@@ -1,41 +1,55 @@
 mode = "dark"
 
-# NsCDE-inspired Solaris CDE dark variant (cewycor8aqw41.png, maxresdefault.jpg).
-# Canvas:  #1A1A2E — dark violet-black for terminal/document backgrounds
-# Chrome:  #2D2B44 — dark purple for panels, bars, menubars
-# Surface: #23223A — slightly lighter dark purple for window bodies
-# Rose:    #C96A8A — brighter screen-calibrated rose for active/highlight
-accent = "#C96A8A"
-selection = "#C96A8A"
+# Solstice Nightwatch — dark companion to Solstice Daylight.
+# Derived from NsCDE dark screenshots (cewycor8aqw41.png / maxresdefault.jpg).
+#
+# Canvas   #1A1A2E  dark violet-black terminal / document background
+# Chrome   #2D2B44  dark purple panels, bars, menubars
+# Surface  #23223A  slightly lighter dark purple window bodies
+# Rose     #C96A8A  brighter screen-calibrated rose for active / selection
+#
+# ANSI palette in canonical color0..color15 form; the resolver maps color1..6
+# / color9..14 back to the semantic names the templates consume. The greens are
+# deliberately rose-purple derived (#6A5A6A / #9A7A9A), not CDE-terminal sage,
+# so the palette stays within the violet/rose family.
+
+# ── Structure ────────────────────────────────────────────────────────────────
+accent               = "#C96A8A"
+selection            = "#C96A8A"
 selection_background = "#C96A8A"
 selection_foreground = "#1A1A2E"
-muted = "#8A8A9A"
 
-background = "#23223A"
-dark_background = "#2D2B44"
-darker_background = "#1C1B2E"
-lighter_background = "#363450"
+background           = "#23223A"
+dark_background      = "#2D2B44"
+darker_background    = "#1C1B2E"
+lighter_background   = "#363450"
 
-foreground = "#EDEBE7"
-dark_foreground = "#8A8A9A"
-light_foreground = "#B4B0C0"
-bright_foreground = "#FFFFFF"
+foreground           = "#EDEBE7"
+dark_foreground      = "#8A8A9A"
+light_foreground     = "#B4B0C0"
 
-red = "#D44D4D"
-yellow = "#D4B04B"
-orange = "#C2591E"
-green = "#5A8A6A"
-cyan = "#6A9A9A"
-blue = "#5A7DB0"
-magenta = "#C96A8A"
-brown = "#8B7355"
+# Semantic colors without a color0..color15 slot.
+orange               = "#C2591E"
+brown                = "#8B7355"
 
-bright_red = "#E06060"
-bright_yellow = "#E0B85A"
-bright_green = "#6A9A7A"
-bright_cyan = "#7AAAAA"
-bright_blue = "#6A8DC0"
-bright_magenta = "#D48AA0"
-
-hyprland_active_border = "#C96A8A"
+# ── Hyprland borders ───────────────────────────────────────────────────────
+hyprland_active_border   = "#C96A8A"
 hyprland_inactive_border = "#363450"
+
+# ── ANSI 16-color palette (canonical) ──────────────────────────────────────
+color0  = "#23223A"   # black   (surface — background)
+color1  = "#D44D4D"   # red
+color2  = "#6A5A6A"   # green   (rose-purple, not sage)
+color3  = "#D4B04B"   # yellow
+color4  = "#5A7DB0"   # blue
+color5  = "#C96A8A"   # magenta (rose accent)
+color6  = "#6A9A9A"   # cyan
+color7  = "#EDEBE7"   # white   (cream — foreground)
+color8  = "#8A8A9A"   # br black  (muted)
+color9  = "#E06060"   # br red
+color10 = "#9A7A9A"   # br green  (rose-purple)
+color11 = "#E0B85A"   # br yellow
+color12 = "#6A8DC0"   # br blue
+color13 = "#D48AA0"   # br magenta
+color14 = "#7AAAAA"   # br cyan
+color15 = "#FFFFFF"   # br white  (bright foreground)

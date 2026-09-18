@@ -1,0 +1,33 @@
+# Solstice Nightwatch — palette reference
+# Derived from NsCDE dark screenshots (cewycor8aqw41.png, maxresdefault.jpg)
+# and the NsCDE palette. Dark companion to Solstice Daylight.
+
+canvas            #1A1A2E   # terminal / text-editor background
+chrome            #2D2B44   # panels, bars, menubars
+surface           #23223A   # window bodies (ANSI black / background)
+light_surface     #363450   # raised surfaces, inactive border
+deep              #1C1B2E   # recessed surfaces
+rose              #C96A8A   # selection, active titlebar, focus, hover
+ink               #EDEBE7   # primary foreground (cream)
+muted             #8A8A9A   # secondary text
+
+# ANSI 16 (terminal)
+color00  black    #23223A
+color01  red      #D44D4D
+color02  green    #6A5A6A   # rose-purple, not CDE sage
+color03  yellow   #D4B04B
+color04  blue     #5A7DB0
+color05  magenta  #C96A8A
+color06  cyan     #6A9A9A
+color07  white    #EDEBE7
+color08  br black #8A8A9A
+color09  br red   #E06060
+color10  br green #9A7A9A   # rose-purple
+color11  br yel   #E0B85A
+color12  br blue  #6A8DC0
+color13  br mag   #D48AA0
+color14  br cyan  #7AAAAA
+color15  br white #FFFFFF
+
+# Light companion: Solstice Daylight
+# https://github.com/hermeticvm/omarchy-theme-solstice-daylight
