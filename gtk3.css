@@ -1,0 +1,43 @@
+/* Solaris CDE Dark — GTK3 selection colors.
+   NOTE: !important is NOT supported by GTK3's CSS parser. */
+@define-color theme_bg_color #2D2B44;
+@define-color theme_fg_color #EDEBE7;
+@define-color theme_base_color #1A1A2E;
+@define-color theme_text_color #EDEBE7;
+@define-color theme_selected_bg_color #C96A8A;
+@define-color theme_selected_fg_color #1A1A2E;
+@define-color theme_unfocused_bg_color #2D2B44;
+@define-color theme_unfocused_fg_color #EDEBE7;
+@define-color theme_unfocused_base_color #1A1A2E;
+@define-color theme_unfocused_text_color #EDEBE7;
+@define-color theme_unfocused_selected_bg_color #C96A8A;
+@define-color theme_unfocused_selected_fg_color #1A1A2E;
+
+.gtkstyle-fallback:selected {
+  background-color: #C96A8A;
+  color: #1A1A2E;
+}
+
+.view:selected, .view:selected:focus,
+iconview:selected, iconview:selected:focus,
+textview text:selected, textview text:selected:focus {
+  background-color: #C96A8A;
+  color: #1A1A2E;
+}
+
+row:selected {
+  background-color: #C96A8A;
+  color: #1A1A2E;
+}
+
+entry:selected, entry selection {
+  background-color: #C96A8A;
+  color: #1A1A2E;
+}
+
+treeview.view:selected, treeview.view:selected:focus {
+  background-color: #C96A8A;
+  color: #1A1A2E;
+}
+
+* { border-radius: 0; }

@@ -1,0 +1,41 @@
+mode = "dark"
+
+# NsCDE-inspired Solaris CDE dark variant (cewycor8aqw41.png, maxresdefault.jpg).
+# Canvas:  #1A1A2E — dark violet-black for terminal/document backgrounds
+# Chrome:  #2D2B44 — dark purple for panels, bars, menubars
+# Surface: #23223A — slightly lighter dark purple for window bodies
+# Rose:    #C96A8A — brighter screen-calibrated rose for active/highlight
+accent = "#C96A8A"
+selection = "#C96A8A"
+selection_background = "#C96A8A"
+selection_foreground = "#1A1A2E"
+muted = "#8A8A9A"
+
+background = "#23223A"
+dark_background = "#2D2B44"
+darker_background = "#1C1B2E"
+lighter_background = "#363450"
+
+foreground = "#EDEBE7"
+dark_foreground = "#8A8A9A"
+light_foreground = "#B4B0C0"
+bright_foreground = "#FFFFFF"
+
+red = "#D44D4D"
+yellow = "#D4B04B"
+orange = "#C2591E"
+green = "#5A8A6A"
+cyan = "#6A9A9A"
+blue = "#5A7DB0"
+magenta = "#C96A8A"
+brown = "#8B7355"
+
+bright_red = "#E06060"
+bright_yellow = "#E0B85A"
+bright_green = "#6A9A7A"
+bright_cyan = "#7AAAAA"
+bright_blue = "#6A8DC0"
+bright_magenta = "#D48AA0"
+
+hyprland_active_border = "#C96A8A"
+hyprland_inactive_border = "#363450"
