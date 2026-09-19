@@ -1,6 +1,6 @@
 # Solstice — Nightwatch
 
-The **dark** companion to [Solstice Daylight](https://github.com/circumspace/omarchy-theme-solstice-daylight):
+The **dark** companion to [Solstice Daylight](https://github.com/circumspace/omarchy-solstice-daylight-theme):
 a Solaris CDE-inspired Omarchy theme rendered in violet-black with purple chrome
 and a brighter rose accent, after the modern **NsCDE** dark look.
 
@@ -11,7 +11,7 @@ and a brighter rose accent, after the modern **NsCDE** dark look.
 ## Install
 
 ```bash
-omarchy theme install https://github.com/circumspace/omarchy-theme-solstice-nightwatch
+omarchy theme install https://github.com/circumspace/omarchy-solstice-nightwatch-theme
 ```
 
 Then select **Solstice Nightwatch** from the Omarchy theme picker.
@@ -19,7 +19,7 @@ Then select **Solstice Nightwatch** from the Omarchy theme picker.
 Or manually:
 
 ```bash
-git clone https://github.com/circumspace/omarchy-theme-solstice-nightwatch \
+git clone https://github.com/circumspace/omarchy-solstice-nightwatch-theme \
   ~/.config/omarchy/themes/solstice-nightwatch
 ```
 
@@ -62,7 +62,7 @@ palette: **Solyaris, Dimple, Dune, Swirl, Squares**.
 
 ## Related
 
-- **[Solstice Daylight](https://github.com/circumspace/omarchy-theme-solstice-daylight)** — the light variant.
+- **[Solstice Daylight](https://github.com/circumspace/omarchy-solstice-daylight-theme)** — the light variant.
 
 ## License
 
