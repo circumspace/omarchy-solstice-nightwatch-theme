@@ -30,4 +30,4 @@ color14  br cyan  #7AAAAA
 color15  br white #FFFFFF
 
 # Light companion: Solstice Daylight
-# https://github.com/hermeticvm/omarchy-theme-solstice-daylight
+# https://github.com/circumspace/omarchy-theme-solstice-daylight
