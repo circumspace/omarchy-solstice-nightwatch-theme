@@ -119,3 +119,10 @@ treeview.view:selected, treeview.view:selected:focus {
 headerbar {
   box-shadow: none;
 }
+
+/* Uniform sidebar: navigation rows sit transparent on the sidebar color
+   (no card striping); :selected keeps the accent. */
+.navigation-sidebar > row:not(:selected),
+placessidebar .navigation-sidebar > row:not(:selected) {
+  background-color: transparent;
+}
