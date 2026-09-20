@@ -44,8 +44,10 @@ Full 16-color ANSI palette in [`palette.txt`](palette.txt).
   GTK loads user CSS once at startup, so **restart** GTK apps after switching
   *into or out of* this theme for colors to take.
 - **Terminal** — Ghostty / Alacritty / Kitty / foot palettes from `colors.toml`.
-- **Browser chrome** — `chromium.theme` tints Brave/Chromium/Edge frame color;
-  dark tones carry Chromium's MD3 generation cleanly.
+- **Browser chrome** — `chromium.theme` sets the frame tint; apply with
+  `omarchy theme set browser` (the policy write needs sudo). For full
+  toolbar/tab colors, enable **Use GTK** in the browser's appearance settings —
+  Chromium picks up this theme's GTK CSS.
 - **Neovim** — self-contained `neovim.lua` colorscheme (no plugin dependency).
 - **btop, Zed/VS Code, Helix** — generated from `colors.toml`.
 
