@@ -33,7 +33,7 @@ git clone https://github.com/circumspace/omarchy-solstice-nightwatch-theme \
 | Rose (selection, active) | `#C96A8A` |
 | Ink (foreground) | `#EDEBE7` |
 
-Terminal greens are deliberately rose-purple (`#6A5A6A` / `#9A7A9A`) rather than
+Terminal greens are deliberately rose-purple (`#998799` / `#A386A3`) rather than
 CDE sage, keeping the whole palette within the violet/rose family.
 Full 16-color ANSI palette in [`palette.txt`](palette.txt).
 

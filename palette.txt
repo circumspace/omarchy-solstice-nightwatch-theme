@@ -13,16 +13,16 @@ muted             #8A8A9A   # secondary text
 
 # ANSI 16 (terminal)
 color00  black    #23223A
-color01  red      #D44D4D
-color02  green    #6A5A6A   # rose-purple, not CDE sage
+color01  red      #DC6E6E
+color02  green    #998799   # rose-purple, not CDE sage
 color03  yellow   #D4B04B
-color04  blue     #5A7DB0
-color05  magenta  #C96A8A
+color04  blue     #6F8DBA
+color05  magenta  #CC7190
 color06  cyan     #6A9A9A
 color07  white    #EDEBE7
 color08  br black #8A8A9A
-color09  br red   #E06060
-color10  br green #9A7A9A   # rose-purple
+color09  br red   #E26969
+color10  br green #A386A3   # rose-purple
 color11  br yel   #E0B85A
 color12  br blue  #6A8DC0
 color13  br mag   #D48AA0

@@ -24,14 +24,14 @@ return {
 				base05 = "#EDEBE7", -- fg (cream ink)
 				base06 = "#B4B0C0",
 				base07 = "#454263",
-				base08 = "#D44D4D", -- red
-				base09 = "#C2591E", -- orange
+				base08 = "#DC6E6E", -- red
+				base09 = "#DE6B2B", -- orange
 				base0A = "#D4B04B", -- yellow
-				base0B = "#9A7A9A", -- green (strings, rose-purple)
+				base0B = "#A386A3", -- green (strings, rose-purple)
 				base0C = "#6A9A9A", -- cyan
-				base0D = "#5A7DB0", -- blue (functions)
-				base0E = "#C96A8A", -- magenta (storage/cursor-word, rose)
-				base0F = "#8B7355", -- brown
+				base0D = "#6F8DBA", -- blue (functions)
+				base0E = "#CC7190", -- magenta (storage/cursor-word, rose)
+				base0F = "#A28867", -- brown
 			},
 		},
 		config = function(_, opts)
