@@ -53,9 +53,12 @@ Full 16-color ANSI palette in [`palette.txt`](palette.txt).
 
 ## Wallpapers
 
-Five procedurally-generated backdrops in `backgrounds/` (6K), rendered from
-[NsCDE](https://github.com/NsCDE/NsCDE) XPM tile patterns recolored to this
-palette: **Solyaris, Dimple, Dune, Swirl, Squares**.
+Fourteen procedurally-generated backdrops in `backgrounds/` (6K), rendered at
+an 8× tile scale from [NsCDE](https://github.com/NsCDE/NsCDE) XPM patterns and
+recolored to this palette: **Solyaris, Dimple, Dune, Swirl, Squares, Marble,
+Toronto, SandLight, CircuitBoards, Lattice, Concave, Convex, PinStripe, Bark**.
+Regenerate them with
+[circumspace/scripts `gen-cde-wallpapers`](https://github.com/circumspace/scripts).
 
 ## Provenance & credits
 
