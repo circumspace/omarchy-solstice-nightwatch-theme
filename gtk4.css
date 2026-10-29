@@ -85,6 +85,11 @@ treeview.view:selected, treeview.view:selected:focus {
   color: #1A1A2E;
 }
 
+/* Sharp CDE corners. libadwaita rounds windows/headerbars/popovers via class
+   selectors that out-specify a bare `*`; these tie them, and user CSS loads
+   after the theme, so ties resolve here. */
+window, headerbar, dialog, messagedialog, popover,
+.window, .dialog, .titlebar, .popover, .background { border-radius: 0; }
 * { border-radius: 0; }
 /* ── libadwaita token coverage (even headerbars, backdrops, popovers) ──────
    Undefined tokens fall back to Adwaita's own light/dark greys, which band
