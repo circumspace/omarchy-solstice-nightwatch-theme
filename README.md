@@ -60,6 +60,8 @@ CircuitBoards, Lattice, PinStripe, RicePaper, RakedSand, Wooly, Ankh**.
 Regenerate them with
 [circumspace/scripts `gen-cde-wallpapers`](https://github.com/circumspace/scripts).
 
+![Solstice Nightwatch backgrounds](backgrounds.jpg)
+
 ## Provenance & credits
 
 - Source screenshots: NsCDE dark desktop captures (see [`palette.txt`](palette.txt)).
